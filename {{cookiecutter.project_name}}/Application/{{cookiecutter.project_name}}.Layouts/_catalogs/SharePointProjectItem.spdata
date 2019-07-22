@@ -3,6 +3,6 @@
   <Files>
     <ProjectItemFile Source="Elements.xml" Target="_catalogs\" Type="ElementManifest" />
     <ProjectItemFile Source="Sample.txt" Target="_catalogs\" Type="ElementFile" />
-    <ProjectItemFile Source="masterpage\OSP.Protal.master" Target="_catalogs\masterpage\" Type="ElementFile" />
+    <ProjectItemFile Source="masterpage\{{cookiecutter.project_name}}.Protal.master" Target="_catalogs\masterpage\" Type="ElementFile" />
   </Files>
 </ProjectItem>

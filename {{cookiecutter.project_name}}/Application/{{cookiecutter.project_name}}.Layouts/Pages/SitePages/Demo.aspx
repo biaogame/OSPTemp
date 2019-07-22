@@ -42,7 +42,7 @@
                         }
                     }
                 })
-            })
+            },'sp.js')
         })
     </script>
 </asp:Content>

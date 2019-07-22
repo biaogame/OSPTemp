@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="_catalogs">
+    <File Path="_catalogs\Sample.txt" Url="_catalogs/Sample.txt" />
+    <File Path="_catalogs\masterpage\{{cookiecutter.project_name}}.Protal.master" Url="_catalogs/masterpage/{{cookiecutter.project_name}}.Protal.master" />
+  </Module>
+</Elements>

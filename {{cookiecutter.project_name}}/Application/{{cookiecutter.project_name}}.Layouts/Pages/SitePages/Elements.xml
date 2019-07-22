@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="SitePages">
+    <File Path="SitePages\Sample.txt" Url="SitePages/Sample.txt" />
+    <File Path="SitePages\Demo.aspx" Url="SitePages/Demo.aspx" />
+  </Module>
+</Elements>

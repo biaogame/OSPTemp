@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{5A307A38-A11C-4608-96A2-BD30E143B007}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "{{cookiecutter.project_name}}.Layouts", "Application\{{cookiecutter.project_name}}.Layouts\{{cookiecutter.project_name}}.Layouts.csproj", "{99E87A80-165F-4620-BA66-FE5951105F44}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "{{cookiecutter.project_name}}.Service", "Application\{{cookiecutter.project_name}}.Service\{{cookiecutter.project_name}}.Service.csproj", "{85E6E68F-0242-47CB-815B-56F605818D0C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9DFFFE06-28B2-442E-B9CE-3DD37886C4F6}"
+	ProjectSection(SolutionItems) = preProject
+		cookiecutter.json = cookiecutter.json
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "{{cookiecutter.project_name}}.Foundation", "Application\{{cookiecutter.project_name}}.Foundation\{{cookiecutter.project_name}}.Foundation.csproj", "{8B6C2513-D700-4572-BAC0-A1ABF7CC04CD}"
+	ProjectSection(ProjectDependencies) = postProject
+		{2133B3CD-1DB8-4090-A600-856DDE14A429} = {2133B3CD-1DB8-4090-A600-856DDE14A429}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "{{cookiecutter.project_name}}.Common", "Application\{{cookiecutter.project_name}}.Common\{{cookiecutter.project_name}}.Common.csproj", "{2133B3CD-1DB8-4090-A600-856DDE14A429}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{99E87A80-165F-4620-BA66-FE5951105F44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99E87A80-165F-4620-BA66-FE5951105F44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99E87A80-165F-4620-BA66-FE5951105F44}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{99E87A80-165F-4620-BA66-FE5951105F44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99E87A80-165F-4620-BA66-FE5951105F44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99E87A80-165F-4620-BA66-FE5951105F44}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{85E6E68F-0242-47CB-815B-56F605818D0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85E6E68F-0242-47CB-815B-56F605818D0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85E6E68F-0242-47CB-815B-56F605818D0C}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{85E6E68F-0242-47CB-815B-56F605818D0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85E6E68F-0242-47CB-815B-56F605818D0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85E6E68F-0242-47CB-815B-56F605818D0C}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{8B6C2513-D700-4572-BAC0-A1ABF7CC04CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B6C2513-D700-4572-BAC0-A1ABF7CC04CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B6C2513-D700-4572-BAC0-A1ABF7CC04CD}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{8B6C2513-D700-4572-BAC0-A1ABF7CC04CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B6C2513-D700-4572-BAC0-A1ABF7CC04CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B6C2513-D700-4572-BAC0-A1ABF7CC04CD}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{2133B3CD-1DB8-4090-A600-856DDE14A429}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2133B3CD-1DB8-4090-A600-856DDE14A429}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2133B3CD-1DB8-4090-A600-856DDE14A429}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2133B3CD-1DB8-4090-A600-856DDE14A429}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{99E87A80-165F-4620-BA66-FE5951105F44} = {5A307A38-A11C-4608-96A2-BD30E143B007}
+		{85E6E68F-0242-47CB-815B-56F605818D0C} = {5A307A38-A11C-4608-96A2-BD30E143B007}
+		{8B6C2513-D700-4572-BAC0-A1ABF7CC04CD} = {5A307A38-A11C-4608-96A2-BD30E143B007}
+		{2133B3CD-1DB8-4090-A600-856DDE14A429} = {5A307A38-A11C-4608-96A2-BD30E143B007}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		VisualSVNWorkingCopyRoot = .
+	EndGlobalSection
+EndGlobal

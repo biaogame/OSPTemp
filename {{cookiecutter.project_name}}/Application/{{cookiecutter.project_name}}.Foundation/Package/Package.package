@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="64f7e000-0dfb-4707-8b44-b31d963d57ff" solutionId="64f7e000-0dfb-4707-8b44-b31d963d57ff" resetWebServer="false" sharePointProductVersion="16.0" name="{{cookiecutter.project_name}}.Foundation" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <assemblies>
+    <projectOutputAssembly location="{{cookiecutter.project_name}}.Common.dll" deploymentTarget="GlobalAssemblyCache" projectPath="..\{{cookiecutter.project_name}}.Common\{{cookiecutter.project_name}}.Common.csproj" />
+    <customAssembly location="OSP.Core.dll" deploymentTarget="GlobalAssemblyCache" sourcePath="DLL\OSP.Core.dll" />
+  </assemblies>
+  <features>
+    <featureReference itemId="45889004-89c9-43d3-aece-b833e8c96265" />
+  </features>
+</package>

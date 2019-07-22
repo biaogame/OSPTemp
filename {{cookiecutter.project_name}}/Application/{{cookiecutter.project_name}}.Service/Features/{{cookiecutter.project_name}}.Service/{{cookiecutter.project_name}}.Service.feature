@@ -1,0 +1,2 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<feature xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="ca115b6d-d918-488b-acc3-3d581ff73c40" description="接口" featureId="ca115b6d-d918-488b-acc3-3d581ff73c40" imageUrl="" solutionId="00000000-0000-0000-0000-000000000000" title="{{cookiecutter.project_name}}.Service" version="" deploymentPath="$SharePoint.Project.FileNameWithoutExtension$_$SharePoint.Feature.FileNameWithoutExtension$" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/FeatureModel" />

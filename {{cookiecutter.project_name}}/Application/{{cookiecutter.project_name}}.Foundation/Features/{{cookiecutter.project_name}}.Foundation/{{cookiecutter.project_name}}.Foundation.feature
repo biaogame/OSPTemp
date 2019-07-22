@@ -1,0 +1,2 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<feature xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="0a49e021-b89d-4573-862b-1df5efd5d665" description="项目程序集" featureId="0a49e021-b89d-4573-862b-1df5efd5d665" imageUrl="" solutionId="00000000-0000-0000-0000-000000000000" title="{{cookiecutter.project_name}}.Foundation" version="" deploymentPath="$SharePoint.Project.FileNameWithoutExtension$_$SharePoint.Feature.FileNameWithoutExtension$" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/FeatureModel" />

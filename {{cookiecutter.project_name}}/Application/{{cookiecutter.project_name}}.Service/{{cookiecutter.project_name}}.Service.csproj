@@ -16,6 +16,7 @@
     <MinimumVisualStudioVersion>14.0</MinimumVisualStudioVersion>
     <MinimumOfficeToolsVersion>14.5</MinimumOfficeToolsVersion>
     <SandboxedSolution>False</SandboxedSolution>
+    <TokenReplacementFileExtensions>svc</TokenReplacementFileExtensions>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>

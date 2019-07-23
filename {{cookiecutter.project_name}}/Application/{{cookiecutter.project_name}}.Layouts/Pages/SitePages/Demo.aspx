@@ -2,8 +2,8 @@
 
 <asp:Content ContentPlaceHolderID="PlaceHolderMain" runat="server">
     <div class="jumbotron" id="Demo_Index">
-        <ul class="list-group" v-for="(k,v) in list">
-            <li class="list-group-item" v-html="v"></li>
+        <ul class="list-group" v-for="(v,k) in list">
+            <li class="list-group-item"><span v-html="k+1"></span>-<span v-html="v"></span></li>
         </ul>
     </div>
     <script>
@@ -15,7 +15,7 @@
                     data: {
                         list: []
                     },
-                    mounted: function () { },
+                    mounted: function () { this.GetList(); },
                     methods: {
                         GetList: function () {
                             var param = {};
@@ -25,7 +25,7 @@
                                 type: "post",
                                 contentType: "application/json",
                                 dataType: "json",
-                                url: _spPageContextInfo.siteAbsoluteUrl + "/_vti_bin/{{cookiecutter.project_name}}/Demo.svc/" + GetList,
+                                url: _spPageContextInfo.siteAbsoluteUrl + "/_vti_bin/{{cookiecutter.project_name}}/Demo.svc/GetList",
                                 data: JSON.stringify(param),
                                 success: function (message) {
                                     if (message.code == 0) {

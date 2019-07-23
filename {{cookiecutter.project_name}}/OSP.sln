@@ -9,11 +9,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "{{cookiecutter.project_name
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "{{cookiecutter.project_name}}.Service", "Application\{{cookiecutter.project_name}}.Service\{{cookiecutter.project_name}}.Service.csproj", "{85E6E68F-0242-47CB-815B-56F605818D0C}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9DFFFE06-28B2-442E-B9CE-3DD37886C4F6}"
-	ProjectSection(SolutionItems) = preProject
-		cookiecutter.json = cookiecutter.json
-	EndProjectSection
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "{{cookiecutter.project_name}}.Foundation", "Application\{{cookiecutter.project_name}}.Foundation\{{cookiecutter.project_name}}.Foundation.csproj", "{8B6C2513-D700-4572-BAC0-A1ABF7CC04CD}"
 	ProjectSection(ProjectDependencies) = postProject
 		{2133B3CD-1DB8-4090-A600-856DDE14A429} = {2133B3CD-1DB8-4090-A600-856DDE14A429}
